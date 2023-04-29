@@ -10,7 +10,7 @@ Please do not use the program maliciously. This program is intended to be used f
 
     - Managers File: Seeing this, MAKE, upload, download, delete ON pc etc. Victims
     * Open the file: Through Links Through Disk Script: VBS, html, bat, txt etc.
-    * Desktop Control
+    + Desktop Control
     * Control Camera / cam
     * Control can cmd to review DDoS bot
     * The process manager / task manager
