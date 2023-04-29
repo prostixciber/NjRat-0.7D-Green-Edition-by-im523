@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B0AC9FE4-6AC8-4F1C-80DA-483CBC1575E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NJRAT</RootNamespace>
+    <AssemblyName>NjRat 0.7D Green Edition by im523</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>NjRat 0.7D Green Edition by im523.ico</ApplicationIcon>
+    <StartupObject>NJRAT.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WinMM.Net">
+      <HintPath>C:\Users\a\Desktop\New folder (8)\WinMM.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Builder.Designer.vb">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Builder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cam.Designer.vb">
+      <DependentUpon>Cam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat.Designer.vb">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class6.vb" />
+    <Compile Include="Class7.vb" />
+    <Compile Include="DDoS.Designer.vb">
+      <DependentUpon>DDoS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DDoS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dos.Designer.vb">
+      <DependentUpon>Dos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DW.Designer.vb">
+      <DependentUpon>DW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromLink.Designer.vb">
+      <DependentUpon>FromLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fun.Designer.vb">
+      <DependentUpon>fun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FURL.Designer.vb">
+      <DependentUpon>FURL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FURL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GClass12.vb" />
+    <Compile Include="GClass2.vb" />
+    <Compile Include="GClass3.vb" />
+    <Compile Include="GClass4.vb" />
+    <Compile Include="GClass5.vb" />
+    <Compile Include="GClass6.vb" />
+    <Compile Include="GClass7.vb" />
+    <Compile Include="GClass8.vb" />
+    <Compile Include="GClass9.vb" />
+    <Compile Include="IconN.vb" />
+    <Compile Include="kl.Designer.vb">
+      <DependentUpon>kl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L1.vb" />
+    <Compile Include="LV.vb" />
+    <Compile Include="Manager.Designer.vb">
+      <DependentUpon>Manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mic.Designer.vb">
+      <DependentUpon>Mic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My\MyApplication.vb" />
+    <Compile Include="My\MyComputer.vb" />
+    <Compile Include="My\MyProject.vb" />
+    <Compile Include="My\MySettings.Designer.vb">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My\MySettingsProperty.vb" />
+    <Compile Include="My\Resources\Resources.vb" />
+    <Compile Include="NJRAT\Client.vb" />
+    <Compile Include="njRAT\SK.vb" />
+    <Compile Include="NOIP.Designer.vb">
+      <DependentUpon>NOIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NOIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Note.Designer.vb">
+      <DependentUpon>Note.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Note.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notf.Designer.vb">
+      <DependentUpon>notf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSite.Designer.vb">
+      <DependentUpon>OpenSite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pas.Designer.vb">
+      <DependentUpon>pas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pass.Designer.vb">
+      <DependentUpon>Pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="port.Designer.vb">
+      <DependentUpon>port.vb</DependentUpon>
+    </Compile>
+    <Compile Include="port.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pp1.vb" />
+    <Compile Include="RGv.Designer.vb">
+      <DependentUpon>RGv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RGv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sc.Designer.vb">
+      <DependentUpon>sc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script.Designer.vb">
+      <DependentUpon>script.vb</DependentUpon>
+    </Compile>
+    <Compile Include="script.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STNG.Designer.vb">
+      <DependentUpon>STNG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STNG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="up.Designer.vb">
+      <DependentUpon>up.vb</DependentUpon>
+    </Compile>
+    <Compile Include="up.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resources" />
+    <EmbeddedResource Include="Builder.resources" />
+    <EmbeddedResource Include="Cam.resources" />
+    <EmbeddedResource Include="Chat.resources" />
+    <EmbeddedResource Include="DDoS.resources" />
+    <EmbeddedResource Include="Dos.resources" />
+    <EmbeddedResource Include="DW.resources" />
+    <EmbeddedResource Include="Form1.resources" />
+    <EmbeddedResource Include="FromLink.resources" />
+    <EmbeddedResource Include="fun.resources" />
+    <EmbeddedResource Include="FURL.resources" />
+    <EmbeddedResource Include="kl.resources" />
+    <EmbeddedResource Include="Manager.resources" />
+    <EmbeddedResource Include="Mic.resources" />
+    <EmbeddedResource Include="NOIP.resources" />
+    <EmbeddedResource Include="Note.resources" />
+    <EmbeddedResource Include="notf.resources" />
+    <EmbeddedResource Include="OpenSite.resources" />
+    <EmbeddedResource Include="pas.resources" />
+    <EmbeddedResource Include="Pass.resources" />
+    <EmbeddedResource Include="port.resources" />
+    <EmbeddedResource Include="Resources.resources" />
+    <EmbeddedResource Include="RGv.resources" />
+    <EmbeddedResource Include="sc.resources" />
+    <EmbeddedResource Include="script.resources" />
+    <EmbeddedResource Include="STNG.resources" />
+    <EmbeddedResource Include="up.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
