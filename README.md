@@ -8,7 +8,7 @@ Please do not use the program maliciously. This program is intended to be used f
 
 ## Features
 
-    * Managers File: Seeing this, MAKE, upload, download, delete ON pc etc. Victims
+    - Managers File: Seeing this, MAKE, upload, download, delete ON pc etc. Victims
     * Open the file: Through Links Through Disk Script: VBS, html, bat, txt etc.
     * Desktop Control
     * Control Camera / cam
