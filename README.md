@@ -18,6 +18,5 @@ Please do not use the program maliciously. This program is intended to be used f
     -Create message: to chat Jump WITH Victims
     -Check Password: Seeing ALL That Saved passwords in the browser application
     -Server: Update: Update through Link, Update through Disk Restart Remove Server Resolve Network Change the name in Remove
-
-## Screenshots
-!(https://user-images.githubusercontent.com/65458800/115034575-574f4400-9ed4-11eb-9eed-f337fe50595f.png)
+    
+![## Screenshots](https://user-images.githubusercontent.com/65458800/115034575-574f4400-9ed4-11eb-9eed-f337fe50595f.png)
